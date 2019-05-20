@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right bottom, darkred, rgb(239, 134, 141));
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#calcContainer {
+    padding-top:40px;
+
+
+}
+
+#calcTitle{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#calculator {
+    
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+    background-color: lightcoral;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+#output {
+    font-size: 200%;
+    padding-top: 10px;
+}
